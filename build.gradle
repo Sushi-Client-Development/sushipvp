@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+group 'net.sushiclient'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url = "https://repo.aikar.co/content/groups/aikar/" }
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+
+dependencies {
+    shadow 'org.bukkit:bukkit:1.12.2-R0.1-SNAPSHOT'
+    implementation 'co.aikar:acf-bukkit:0.5.0-SNAPSHOT'
+}
+
+
+shadowJar {
+    def relocate = { string -> relocate(string, "net.sushiclient.chatcontrol.shadow.${string}") }
+    relocate 'co.aikar'
+    exclude 'LICENSE.txt'
+    exclude 'module-info.class'
+    classifier = ''
+}
+
+build.dependsOn shadowJar

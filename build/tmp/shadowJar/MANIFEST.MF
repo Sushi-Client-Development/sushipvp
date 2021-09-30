@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: bukkit-1.12.2-R0.1-SNAPSHOT.jar commons-lang-2.6.jar json-
+ simple-1.1.1.jar guava-21.0.jar gson-2.8.0.jar snakeyaml-1.19.jar jun
+ it-4.10.jar hamcrest-core-1.1.jar
+

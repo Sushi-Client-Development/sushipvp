@@ -1,0 +1,64 @@
+net/sushiclient/sushipvp/services/IgnoreService.java
+ net.sushiclient.sushipvp.services.IgnoreService
+net/sushiclient/sushipvp/services/FrameDispenserService.java
+ net.sushiclient.sushipvp.services.FrameDispenserService
+net/sushiclient/sushipvp/services/EnderChestDisableService.java
+ net.sushiclient.sushipvp.services.EnderChestDisableService
+net/sushiclient/sushipvp/services/ClearInventoryService.java
+ net.sushiclient.sushipvp.services.ClearInventoryService
+net/sushiclient/sushipvp/services/SpawnLocationService.java
+ net.sushiclient.sushipvp.services.SpawnLocationService
+net/sushiclient/sushipvp/Config.java
+ net.sushiclient.sushipvp.Config
+net/sushiclient/sushipvp/services/VehicleMoveDisableService.java
+ net.sushiclient.sushipvp.services.VehicleMoveDisableService
+net/sushiclient/sushipvp/services/DeathMessageService.java
+ net.sushiclient.sushipvp.services.DeathMessageService
+net/sushiclient/sushipvp/services/BedrockProtectService.java
+ net.sushiclient.sushipvp.services.BedrockProtectService
+net/sushiclient/sushipvp/SushiConfig.java
+ net.sushiclient.sushipvp.SushiConfig
+net/sushiclient/sushipvp/commands/KillCommand.java
+ net.sushiclient.sushipvp.commands.KillCommand
+net/sushiclient/sushipvp/services/CombatTagService.java
+ net.sushiclient.sushipvp.services.CombatTagService
+net/sushiclient/sushipvp/services/AntiVoidService.java
+ net.sushiclient.sushipvp.services.AntiVoidService
+net/sushiclient/sushipvp/services/CombatRestrictionEnforceService.java
+ net.sushiclient.sushipvp.services.CombatRestrictionEnforceService
+net/sushiclient/sushipvp/services/NoFallDamageService.java
+ net.sushiclient.sushipvp.services.NoFallDamageService
+net/sushiclient/sushipvp/services/QuitMessageDisableService.java
+ net.sushiclient.sushipvp.services.QuitMessageDisableService
+net/sushiclient/sushipvp/services/AntiOffhandCrashService.java
+ net.sushiclient.sushipvp.services.AntiOffhandCrashService
+net/sushiclient/sushipvp/services/VehicleQuitDisableService.java
+ net.sushiclient.sushipvp.services.VehicleQuitDisableService
+net/sushiclient/sushipvp/services/ItemRemoveService.java
+ net.sushiclient.sushipvp.services.ItemRemoveService
+net/sushiclient/sushipvp/services/MessageBlockService.java
+ net.sushiclient.sushipvp.services.MessageBlockService
+net/sushiclient/sushipvp/services/BlockResetService.java
+ net.sushiclient.sushipvp.services.BlockResetService
+net/sushiclient/sushipvp/commands/ToggleDeathMessagesCommand.java
+ net.sushiclient.sushipvp.commands.ToggleDeathMessagesCommand
+net/sushiclient/sushipvp/services/AntiHoleTpService.java
+ net.sushiclient.sushipvp.services.AntiHoleTpService
+net/sushiclient/sushipvp/services/AntiPhaseService.java
+ net.sushiclient.sushipvp.services.AntiPhaseService
+net/sushiclient/sushipvp/services/NightVisionService.java
+ net.sushiclient.sushipvp.services.NightVisionService
+net/sushiclient/sushipvp/events/SuicideEvent.java
+ net.sushiclient.sushipvp.events.SuicideEvent
+net/sushiclient/sushipvp/services/AntiKillSpamService.java
+ net.sushiclient.sushipvp.services.AntiKillSpamService
+net/sushiclient/sushipvp/services/InfinityAnvilService.java
+ net.sushiclient.sushipvp.services.InfinityAnvilService
+net/sushiclient/sushipvp/events/DeathMessagesToggleEvent.java
+ net.sushiclient.sushipvp.events.DeathMessagesToggleEvent
+net/sushiclient/sushipvp/Service.java
+ net.sushiclient.sushipvp.Service
+net/sushiclient/sushipvp/commands/SushiCommands.java
+ net.sushiclient.sushipvp.commands.SushiCommands
+net/sushiclient/sushipvp/SushiPlugin.java
+ net.sushiclient.sushipvp.SushiPlugin

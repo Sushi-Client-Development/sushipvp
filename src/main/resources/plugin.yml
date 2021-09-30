@@ -1,0 +1,21 @@
+name: SushiPvP
+version: 1.0
+main: net.sushiclient.sushipvp.SushiPlugin
+commands:
+  sushi:
+    usage: "/sushi <sub commands>"
+    description: "Sushi PvP commands"
+    permission: "sushipvp"
+
+permissions:
+  sushipvp.*:
+    children: [ "sushipvp.reload", "sushipvp.block", "sushipvp.unblock", "sushipvp.blocklist" ]
+    default: op
+  sushipvp.reload:
+    default: op
+  sushipvp.block:
+    default: op
+  sushipvp.blocklist:
+    default: op
+  sushipvp.unblock:
+    default: op
