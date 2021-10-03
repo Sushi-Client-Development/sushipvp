@@ -54,7 +54,7 @@ public class SushiConfig {
     private int offhandThreshold = 10;
 
     @Config("teleport-threshold")
-    private double teleportThreshold = 3;
+    private double teleportThreshold = 5;
 
     @Config("remove-ticks")
     private int removeTicks = 1200;
