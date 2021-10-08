@@ -23,7 +23,7 @@ public class AntiKillSpamService extends Service {
 
     @EventHandler
     public void onSuicide(SuicideEvent e) {
-        if(players.getOrDefault(e.getCommandSender(), 0) == 0) {
+        if (players.getOrDefault(e.getCommandSender(), 0) == 0) {
             players.put(e.getCommandSender(), getConfig().getKillCommandThreshold());
         } else {
             e.setCancelled(true);

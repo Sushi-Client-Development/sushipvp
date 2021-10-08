@@ -17,7 +17,6 @@
 | Death Message | 死亡時のログを2b2t風にする |
 | Ender Chest Disable | エンダーチェストを無効化する |
 | Frame Dispenser | 額縁をアイテムの供給源として使えるようにする |
-| Ignore | /ignore コマンドを追加する |
 | Infinity Anvil | 金床が使用時に傷つかないようにする |
 | Item Remove | ドロップアイテムを自動で削除する |
 | Night Vision | プレイヤーに暗視効果を付与する |

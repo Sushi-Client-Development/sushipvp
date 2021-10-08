@@ -1,7 +1,6 @@
 package net.sushiclient.sushipvp.services;
 
 import net.sushiclient.sushipvp.Service;
-import net.sushiclient.sushipvp.SushiConfig;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -23,7 +22,7 @@ public class ItemRemoveService extends Service {
 
     @Override
     public void onTick(int tick) {
-        if(tick % 20 != 0) return;
+        if (tick % 20 != 0) return;
         for (World world : Bukkit.getWorlds()) {
             for (Item item : world.getEntitiesByClass(Item.class)) {
                 int ticks = removeTicks.getOrDefault(item, getConfig().getRemoveTicks()) - 20;
